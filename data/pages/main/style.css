@@ -382,6 +382,32 @@ span {
     background: none;
 }
 
+#facebook-s:hover {
+    background: rgb(77, 6, 185);
+    color: white;
+    box-shadow: 0 0 1rem rgb(77, 6, 185);
+    border-color: rgb(77, 6, 185);
+}
+
+#facebook-s:active {
+    transform: scale(0.90);
+    color: white;
+    background: none;
+}
+
+#tiktok-s:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+#tiktok-s:active {
+    transform: scale(0.90);
+    color: white;
+    background: none;
+}
+
 /*BREAKPOINTS*/
 @media (max-width: 1200px) {
     html {
