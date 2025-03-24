@@ -3,18 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>DARK FLAME</title>
     <style>
-        h1{
-            text-align: center;
+        body {
+            background-color: black;
         }
-        h3{
+        #m {
             text-align: center;
+            border: 5px red dashed;
+            display: inline-block;
+            padding: 5%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #logo {
+            width: 10rem;
+        }
+
+        #d {
+            text-align: center;
+            font-size: 4em;
+            color: red;
+            text-shadow: 0px 5px 3px white;
+        }
+
+        #ti {
+            color: white;
+        }
+
+        h3 {
+            color: red;
+        }
+        #sm {
+            color: white;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        i{
+            border: 2px white solid;
+            border-radius: 100%;
+            padding: 1%;
+            font-size: large;
+            box-shadow: 1px 1px 1px 1px white;
+        }
+        #w:hover{
+            color: white;
+            background-color: green;
+            border-color: white;
+        }
+        #w{
+            color: green;
+            background-color: transparent;
+            border-color: white;
+        }
+
+        #i:hover{
+            color: white;
+            background-color: purple;
+            border-color: white;
+        }
+        #i{
+            margin: 1%;
+            color: purple;
+            background-color: transparent;
+            border-color: white;
+        }
+
+        #t:hover{
+            color: black;
+            background-color: white;
+            border-color: white;
+        }
+        #t{
+            color: white;
+            background-color: transparent;
+            border-color: white;
+        }
+
+        #f:hover{
+            color: white;
+            background-color: blue;
+            border-color: white;
+        }
+        #f{
+            color: blue;
+            background-color: transparent;
+            border-color: white;
         }
     </style>
 </head>
 <body>
-    <h1>Coming Soon!</h1>
+    <h1 id="d">DARK FLAME</h1>
+    <div id="m">
+        <img id="logo" src="data/img/logo.png" alt="DARKFLAME">
+        <h1 id="ti">Portfolio is coming soon!</h1>
+        <h3><del>Old page is closed!</del></h3>
+        <div id="sm">
+            <a href="https://wa.me/+96181158126" target="_blank"><i id="w" class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.instagram.com/dark_flame.lb" target="_blank"><i id="i" class='bx bxl-instagram' ></i></a>
+            <a href="https://www.tiktok.com/@dark_flame.lb" target="_blank"><i id="t" class='bx bxl-tiktok' ></i></a>
+            <a href="https://www.facebook.com/share/1GHMyXZ5TE/" target="_blank"><i id="f" class='bx bxl-facebook-circle' ></i></a>
+        </div>
+    </div>
     
 </body>
 </html>
